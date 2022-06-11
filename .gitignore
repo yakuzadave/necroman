@@ -128,5 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-necroman_node/*
-node_modules
+necroman_node/node_modules/*
+node_modules/*
