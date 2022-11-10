@@ -1,0 +1,8 @@
+
+
+// Select the database to use.
+use('necromunda');
+
+// grab the first 10 records from the gangers collection in mongodb where Status != "Dead" and "Gang Name" == "ShaftJackers"
+db.gangers.find({Status: {$ne: "Dead"}, "Gang Name": "ShaftJackers"}, {_id: 0, Name: 1, Status: 1, "Gang Name": 1}).limit(10);
+

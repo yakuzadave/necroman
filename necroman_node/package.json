@@ -1,9 +1,10 @@
 {
   "dependencies": {
-    "airtable": "^0.11.3",
+    "@react-native-firebase/app": "^14.11.0",
+    "n8n": "latest",
+    "airtable": "latest",
     "airtable2lowdb": "^1.0.0",
-    "dotenv": "^16.0.0",
-    "lowdb": "^1.0.0",
-    "n8n": "^0.176.0"
+    "dotenv": "latest",
+    "lowdb": "^1.0.0"
   }
 }
