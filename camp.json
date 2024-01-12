@@ -1,0 +1,625 @@
+{
+    "campaign": {
+        "campaign_id": "10329",
+        "campaign_name": "2021 Grimdark Dick & Fart Joke Summit",
+        "campaign_url": "https:\/\/yaktribe.games\/underhive\/campaign\/2021_grimdark_dick_%26_fart_joke_summit.10329\/",
+        "campaign_created_datetime": "2021-10-28 20:32:44",
+        "campaign_created_username": "ruckusdub",
+        "campaign_member_count": "5",
+        "campaign_gang_count": "5",
+        "members": [
+            {
+                "member_user_id": 16185,
+                "member_username": "0rwin",
+                "member_url": "https:\/\/yaktribe.games\/community\/members\/0rwin.16185\/",
+                "member_admin": "No"
+            },
+            {
+                "member_user_id": 68606,
+                "member_username": "13013jones",
+                "member_url": "https:\/\/yaktribe.games\/community\/members\/13013jones.68606\/",
+                "member_admin": "No"
+            },
+            {
+                "member_user_id": 67890,
+                "member_username": "egonthemighty",
+                "member_url": "https:\/\/yaktribe.games\/community\/members\/egonthemighty.67890\/",
+                "member_admin": "No"
+            },
+            {
+                "member_user_id": 69541,
+                "member_username": "katharsis",
+                "member_url": "https:\/\/yaktribe.games\/community\/members\/katharsis.69541\/",
+                "member_admin": "Yes"
+            },
+            {
+                "member_user_id": 67291,
+                "member_username": "ruckusdub",
+                "member_url": "https:\/\/yaktribe.games\/community\/members\/ruckusdub.67291\/",
+                "member_admin": "Yes"
+            }
+        ],
+        "gangs": [
+            {
+                "gang_id": "222983",
+                "gang_user_id": "16185",
+                "gang_username": "0rwin",
+                "gang_name": "Primus Hill",
+                "gang_type": "Cawdor (HoF)",
+                "gang_url": "https:\/\/yaktribe.games\/underhive\/gang\/primus_hill.222983\/",
+                "gang_rating": "1950",
+                "credits": "590",
+                "reptutation": "10",
+                "wealth": "2635",
+                "alignment": "Law Abiding",
+                "territories_dominion": "3",
+                "territories_gang": "1",
+                "kills": "20"
+            },
+            {
+                "gang_id": "222836",
+                "gang_user_id": "69541",
+                "gang_username": "katharsis",
+                "gang_name": " Extra Spicy Chunky Salsa Boys",
+                "gang_type": "Corpse Grinder Cult",
+                "gang_url": "https:\/\/yaktribe.games\/underhive\/gang\/_extra_spicy_chunky_salsa_boys.222836\/",
+                "gang_rating": "1645",
+                "credits": "0",
+                "reptutation": "2",
+                "wealth": "1645",
+                "alignment": "Outlaw",
+                "territories_dominion": "1",
+                "territories_gang": "1",
+                "kills": "2"
+            },
+            {
+                "gang_id": "222073",
+                "gang_user_id": "68606",
+                "gang_username": "13013jones",
+                "gang_name": "Maul Cops mk2",
+                "gang_type": "Enforcers",
+                "gang_url": "https:\/\/yaktribe.games\/underhive\/gang\/maul_cops_mk2.222073\/",
+                "gang_rating": "1540",
+                "credits": "285",
+                "reptutation": "2",
+                "wealth": "1860",
+                "alignment": "Law Abiding",
+                "territories_dominion": "2",
+                "territories_gang": "1",
+                "kills": "9"
+            },
+            {
+                "gang_id": "218787",
+                "gang_user_id": "67890",
+                "gang_username": "egonthemighty",
+                "gang_name": "ShaftJackers",
+                "gang_type": "Orlock (HoI)",
+                "gang_url": "https:\/\/yaktribe.games\/underhive\/gang\/shaftjackers.218787\/",
+                "gang_rating": "3110",
+                "credits": "146",
+                "reptutation": "15",
+                "wealth": "3256",
+                "alignment": "Law Abiding",
+                "territories_dominion": "4",
+                "territories_gang": "1",
+                "kills": "15"
+            },
+            {
+                "gang_id": "217754",
+                "gang_user_id": "67291",
+                "gang_username": "ruckusdub",
+                "gang_name": "Brisantes Thema Cabal HoS",
+                "gang_type": "Delaque (HoS)",
+                "gang_url": "https:\/\/yaktribe.games\/underhive\/gang\/brisantes_thema_cabal_hos.217754\/",
+                "gang_rating": "1905",
+                "credits": "10",
+                "reptutation": "16",
+                "wealth": "1925",
+                "alignment": "Law Abiding",
+                "territories_dominion": "5",
+                "territories_gang": "1",
+                "kills": "14"
+            }
+        ],
+        "territories": [
+            {
+                "territory_id": "276",
+                "territory_name": "Bone Shrine",
+                "territory_gang_type": "Cawdor (GotU)",
+                "territory_gang_id": "218787",
+                "territory_gang_name": "ShaftJackers"
+            },
+            {
+                "territory_id": "268",
+                "territory_name": "Rogue Doc Shop",
+                "territory_gang_type": "",
+                "territory_gang_id": "218787",
+                "territory_gang_name": "ShaftJackers"
+            },
+            {
+                "territory_id": "271",
+                "territory_name": "Sludge Sea",
+                "territory_gang_type": "",
+                "territory_gang_id": "218787",
+                "territory_gang_name": "ShaftJackers"
+            },
+            {
+                "territory_id": "288",
+                "territory_name": "Toll Crossing",
+                "territory_gang_type": "Orlock (GotU)",
+                "territory_gang_id": "218787",
+                "territory_gang_name": "ShaftJackers"
+            },
+            {
+                "territory_id": "275",
+                "territory_name": "Corpse Farm",
+                "territory_gang_type": "Cawdor (GotU)",
+                "territory_gang_id": "222983",
+                "territory_gang_name": "Primus Hill"
+            },
+            {
+                "territory_id": "277",
+                "territory_name": "Drinking Hole",
+                "territory_gang_type": "Delaque (GotU)",
+                "territory_gang_id": "222983",
+                "territory_gang_name": "Primus Hill"
+            },
+            {
+                "territory_id": "281",
+                "territory_name": "Stinger Mould Sprawl",
+                "territory_gang_type": "Escher (GotU)",
+                "territory_gang_id": "222983",
+                "territory_gang_name": "Primus Hill"
+            },
+            {
+                "territory_id": "266",
+                "territory_name": "Old Ruins",
+                "territory_gang_type": "",
+                "territory_gang_id": "222073",
+                "territory_gang_name": "Maul Cops mk2"
+            },
+            {
+                "territory_id": "272",
+                "territory_name": "Workshop",
+                "territory_gang_type": "",
+                "territory_gang_id": "222073",
+                "territory_gang_name": "Maul Cops mk2"
+            },
+            {
+                "territory_id": "284",
+                "territory_name": "Fighting Pit",
+                "territory_gang_type": "Goliath (GotU)",
+                "territory_gang_id": "217754",
+                "territory_gang_name": "Brisantes Thema Cabal HoS"
+            },
+            {
+                "territory_id": "289",
+                "territory_name": "Generatorium",
+                "territory_gang_type": "Van Saar (GotU)",
+                "territory_gang_id": "217754",
+                "territory_gang_name": "Brisantes Thema Cabal HoS"
+            },
+            {
+                "territory_id": "286",
+                "territory_name": "Mine Workings",
+                "territory_gang_type": "Orlock (GotU)",
+                "territory_gang_id": "217754",
+                "territory_gang_name": "Brisantes Thema Cabal HoS"
+            },
+            {
+                "territory_id": "279",
+                "territory_name": "Needle Ways",
+                "territory_gang_type": "Delaque (GotU)",
+                "territory_gang_id": "217754",
+                "territory_gang_name": "Brisantes Thema Cabal HoS"
+            },
+            {
+                "territory_id": "270",
+                "territory_name": "Wastes",
+                "territory_gang_type": "",
+                "territory_gang_id": "217754",
+                "territory_gang_name": "Brisantes Thema Cabal HoS"
+            },
+            {
+                "territory_id": "274",
+                "territory_name": "Refuse Drift",
+                "territory_gang_type": "Cawdor (GotU)",
+                "territory_gang_id": "222836",
+                "territory_gang_name": " Extra Spicy Chunky Salsa Boys"
+            }
+        ],
+        "battles": [
+            {
+                "battle_id": "27034",
+                "battle_created_datetime": "2022-05-23 05:50:00",
+                "battle_scenario": "Tunnel Skirmish",
+                "battle_winner_gang_id": "222983",
+                "battle_winner_gang_name": "Primus Hill",
+                "battle_winner_territory": "Corpse Farm",
+                "battle_gangs": [
+                    {
+                        "gang_id": 222836,
+                        "gang_name": " Extra Spicy Chunky Salsa Boys",
+                        "gang_rating": 1655
+                    },
+                    {
+                        "gang_id": 222983,
+                        "gang_name": "Primus Hill",
+                        "gang_rating": 1930
+                    }
+                ]
+            },
+            {
+                "battle_id": "26056",
+                "battle_created_datetime": "2022-05-01 05:58:00",
+                "battle_scenario": "Sneak Attack",
+                "battle_winner_gang_id": null,
+                "battle_winner_gang_name": "",
+                "battle_winner_territory": null,
+                "battle_gangs": [
+                    {
+                        "gang_id": 217754,
+                        "gang_name": "Brisantes Thema Cabal HoS",
+                        "gang_rating": 1655
+                    },
+                    {
+                        "gang_id": 222073,
+                        "gang_name": "Maul Cops mk2",
+                        "gang_rating": 1540
+                    }
+                ]
+            },
+            {
+                "battle_id": "26050",
+                "battle_created_datetime": "2022-04-30 23:46:00",
+                "battle_scenario": "Forgotten Riches",
+                "battle_winner_gang_id": "222073",
+                "battle_winner_gang_name": "Maul Cops mk2",
+                "battle_winner_territory": "Old Ruins",
+                "battle_gangs": [
+                    {
+                        "gang_id": 222073,
+                        "gang_name": "Maul Cops mk2",
+                        "gang_rating": 1640
+                    },
+                    {
+                        "gang_id": 222983,
+                        "gang_name": "Primus Hill",
+                        "gang_rating": 1930
+                    }
+                ]
+            },
+            {
+                "battle_id": "24728",
+                "battle_created_datetime": "2022-03-27 04:50:00",
+                "battle_scenario": "Border Dispute",
+                "battle_winner_gang_id": "217754",
+                "battle_winner_gang_name": "Brisantes Thema Cabal HoS",
+                "battle_winner_territory": "Wastes",
+                "battle_gangs": [
+                    {
+                        "gang_id": 217754,
+                        "gang_name": "Brisantes Thema Cabal HoS",
+                        "gang_rating": 1300
+                    },
+                    {
+                        "gang_id": 222983,
+                        "gang_name": "Primus Hill",
+                        "gang_rating": 1795
+                    }
+                ]
+            },
+            {
+                "battle_id": "24718",
+                "battle_created_datetime": "2022-03-26 23:52:00",
+                "battle_scenario": "Tunnel Skirmish",
+                "battle_winner_gang_id": "222983",
+                "battle_winner_gang_name": "Primus Hill",
+                "battle_winner_territory": "Drinking Hole",
+                "battle_gangs": [
+                    {
+                        "gang_id": 218787,
+                        "gang_name": "ShaftJackers",
+                        "gang_rating": 2790
+                    },
+                    {
+                        "gang_id": 222983,
+                        "gang_name": "Primus Hill",
+                        "gang_rating": 1770
+                    }
+                ]
+            },
+            {
+                "battle_id": "24237",
+                "battle_created_datetime": "2022-03-13 06:02:00",
+                "battle_scenario": "The Marauders",
+                "battle_winner_gang_id": "217754",
+                "battle_winner_gang_name": "Brisantes Thema Cabal HoS",
+                "battle_winner_territory": "Mine Workings",
+                "battle_gangs": [
+                    {
+                        "gang_id": 217754,
+                        "gang_name": "Brisantes Thema Cabal HoS",
+                        "gang_rating": 2155
+                    },
+                    {
+                        "gang_id": 218787,
+                        "gang_name": "ShaftJackers",
+                        "gang_rating": 2500
+                    }
+                ]
+            },
+            {
+                "battle_id": "24023",
+                "battle_created_datetime": "2022-03-07 07:00:00",
+                "battle_scenario": "Border Dispute",
+                "battle_winner_gang_id": "222983",
+                "battle_winner_gang_name": "Primus Hill",
+                "battle_winner_territory": "Corpse Farm",
+                "battle_gangs": [
+                    {
+                        "gang_id": 222836,
+                        "gang_name": " Extra Spicy Chunky Salsa Boys",
+                        "gang_rating": 1495
+                    },
+                    {
+                        "gang_id": 222983,
+                        "gang_name": "Primus Hill",
+                        "gang_rating": 1425
+                    }
+                ]
+            },
+            {
+                "battle_id": "24024",
+                "battle_created_datetime": "2022-03-07 07:00:00",
+                "battle_scenario": "Sabotage",
+                "battle_winner_gang_id": "218787",
+                "battle_winner_gang_name": "ShaftJackers",
+                "battle_winner_territory": "Bone Shrine",
+                "battle_gangs": [
+                    {
+                        "gang_id": 218787,
+                        "gang_name": "ShaftJackers",
+                        "gang_rating": 2120
+                    },
+                    {
+                        "gang_id": 222983,
+                        "gang_name": "Primus Hill",
+                        "gang_rating": 1425
+                    }
+                ]
+            },
+            {
+                "battle_id": "23208",
+                "battle_created_datetime": "2022-02-13 23:50:00",
+                "battle_scenario": "Ambush",
+                "battle_winner_gang_id": "217754",
+                "battle_winner_gang_name": "Brisantes Thema Cabal HoS",
+                "battle_winner_territory": "Wastes",
+                "battle_gangs": [
+                    {
+                        "gang_id": 217754,
+                        "gang_name": "Brisantes Thema Cabal HoS",
+                        "gang_rating": 1895
+                    },
+                    {
+                        "gang_id": 222073,
+                        "gang_name": "Maul Cops mk2",
+                        "gang_rating": 1585
+                    }
+                ]
+            },
+            {
+                "battle_id": "22502",
+                "battle_created_datetime": "2022-01-24 04:10:00",
+                "battle_scenario": "Sneak Attack",
+                "battle_winner_gang_id": null,
+                "battle_winner_gang_name": "",
+                "battle_winner_territory": null,
+                "battle_gangs": [
+                    {
+                        "gang_id": 217754,
+                        "gang_name": "Brisantes Thema Cabal HoS",
+                        "gang_rating": 1635
+                    },
+                    {
+                        "gang_id": 222983,
+                        "gang_name": "Primus Hill",
+                        "gang_rating": 1635
+                    }
+                ]
+            },
+            {
+                "battle_id": "22503",
+                "battle_created_datetime": "2022-01-24 04:10:00",
+                "battle_scenario": "Stand-off",
+                "battle_winner_gang_id": "218787",
+                "battle_winner_gang_name": "ShaftJackers",
+                "battle_winner_territory": "Mine Workings",
+                "battle_gangs": [
+                    {
+                        "gang_id": 218787,
+                        "gang_name": "ShaftJackers",
+                        "gang_rating": 1865
+                    },
+                    {
+                        "gang_id": 222836,
+                        "gang_name": " Extra Spicy Chunky Salsa Boys",
+                        "gang_rating": 1495
+                    }
+                ]
+            },
+            {
+                "battle_id": "21010",
+                "battle_created_datetime": "2021-11-28 02:37:00",
+                "battle_scenario": "Smash & Grab",
+                "battle_winner_gang_id": "222983",
+                "battle_winner_gang_name": "Primus Hill",
+                "battle_winner_territory": "Stinger Mould Sprawl",
+                "battle_gangs": [
+                    {
+                        "gang_id": 222073,
+                        "gang_name": "Maul Cops mk2",
+                        "gang_rating": 1200
+                    },
+                    {
+                        "gang_id": 222983,
+                        "gang_name": "Primus Hill",
+                        "gang_rating": 1145
+                    }
+                    \
+                ]
+            },
+            {
+                "battle_id": "21008",
+                "battle_created_datetime": "2021-11-28 02:26:00",
+                "battle_scenario": "Stand-off",
+                "battle_winner_gang_id": "217754",
+                "battle_winner_gang_name": "Brisantes Thema Cabal HoS",
+                "battle_winner_territory": "Fighting Pit",
+                "battle_gangs": [
+                    {
+                        "gang_id": 217754,
+                        "gang_name": "Brisantes Thema Cabal HoS",
+                        "gang_rating": 1155
+                    },
+                    {
+                        "gang_id": 222836,
+                        "gang_name": " Extra Spicy Chunky Salsa Boys",
+                        "gang_rating": 1000
+                    }
+                ]
+            },
+            {
+                "battle_id": "21007",
+                "battle_created_datetime": "2021-11-28 00:37:00",
+                "battle_scenario": "Sabotage",
+                "battle_winner_gang_id": "218787",
+                "battle_winner_gang_name": "ShaftJackers",
+                "battle_winner_territory": "Mine Workings",
+                "battle_gangs": [
+                    {
+                        "gang_id": 218787,
+                        "gang_name": "ShaftJackers",
+                        "gang_rating": 1190
+                    },
+                    {
+                        "gang_id": 222836,
+                        "gang_name": " Extra Spicy Chunky Salsa Boys",
+                        "gang_rating": 1000
+                    }
+                ]
+            },
+            {
+                "battle_id": "21005",
+                "battle_created_datetime": "2021-11-27 23:29:00",
+                "battle_scenario": "Tunnel Skirmish",
+                "battle_winner_gang_id": "217754",
+                "battle_winner_gang_name": "Brisantes Thema Cabal HoS",
+                "battle_winner_territory": "Generatorium",
+                "battle_gangs": [
+                    {
+                        "gang_id": 217754,
+                        "gang_name": "Brisantes Thema Cabal HoS",
+                        "gang_rating": 1095
+                    },
+                    {
+                        "gang_id": 222073,
+                        "gang_name": "Maul Cops mk2",
+                        "gang_rating": 1200
+                    }
+                ]
+            },
+            {
+                "battle_id": "20597",
+                "battle_created_datetime": "2021-11-15 07:39:00",
+                "battle_scenario": "Rescue Mission",
+                "battle_winner_gang_id": "217754",
+                "battle_winner_gang_name": "Brisantes Thema Cabal HoS",
+                "battle_winner_territory": "Wastes",
+                "battle_gangs": [
+                    {
+                        "gang_id": 217754,
+                        "gang_name": "Brisantes Thema Cabal HoS",
+                        "gang_rating": 1085
+                    },
+                    {
+                        "gang_id": 222983,
+                        "gang_name": "Primus Hill",
+                        "gang_rating": 1070
+                    }
+                ]
+            },
+            {
+                "battle_id": "20594",
+                "battle_created_datetime": "2021-11-15 06:28:00",
+                "battle_scenario": "Stand-off",
+                "battle_winner_gang_id": "222983",
+                "battle_winner_gang_name": "Primus Hill",
+                "battle_winner_territory": "Drinking Hole",
+                "battle_gangs": [
+                    {
+                        "gang_id": 217754,
+                        "gang_name": "Brisantes Thema Cabal HoS",
+                        "gang_rating": 1000
+                    },
+                    {
+                        "gang_id": 222983,
+                        "gang_name": "Primus Hill",
+                        "gang_rating": 1025
+                    }
+                ]
+            },
+            {
+                "battle_id": "20096",
+                "battle_created_datetime": "2021-11-01 00:43:00",
+                "battle_scenario": "Border Dispute",
+                "battle_winner_gang_id": "218787",
+                "battle_winner_gang_name": "ShaftJackers",
+                "battle_winner_territory": "Sludge Sea",
+                "battle_gangs": [
+                    {
+                        "gang_id": 218787,
+                        "gang_name": "ShaftJackers",
+                        "gang_rating": 1050
+                    },
+                    {
+                        "gang_id": 222073,
+                        "gang_name": "Maul Cops mk2",
+                        "gang_rating": 1000
+                    },
+                    {
+                        "gang_id": 222836,
+                        "gang_name": " Extra Spicy Chunky Salsa Boys",
+                        "gang_rating": 1000
+                    },
+                    {
+                        "gang_id": 222983,
+                        "gang_name": "Primus Hill",
+                        "gang_rating": 1000
+                    }
+                ]
+            },
+            {
+                "battle_id": "20097",
+                "battle_created_datetime": "2021-11-01 00:43:00",
+                "battle_scenario": "Border Dispute",
+                "battle_winner_gang_id": "218787",
+                "battle_winner_gang_name": "ShaftJackers",
+                "battle_winner_territory": "Rogue Doc Shop",
+                "battle_gangs": [
+                    {
+                        "gang_id": 218787,
+                        "gang_name": "ShaftJackers",
+                        "gang_rating": 1050
+                    },
+                    {
+                        "gang_id": 222073,
+                        "gang_name": "Maul Cops mk2",
+                        "gang_rating": 1000
+                    }
+                ]
+            }
+        ]
+    }
+}

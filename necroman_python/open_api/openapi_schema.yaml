@@ -1,0 +1,186 @@
+openapi: 3.0.0
+info:
+  title: Yaktribe Games Underhive API
+  description: Access gang and campaign data from the Yaktribe Games Underhive service.
+  version: 1.0.0
+servers:
+  - url: https://yaktribe.games/underhive
+paths:
+  /json/gang/{gang_id}.json:
+    get:
+      operationId: getGangData
+      summary: Get gang data
+      description: Retrieve the JSON formatted data of a gang by providing the gang ID.
+      parameters:
+        - name: gang_id
+          in: path
+          description: The unique identifier for the gang.
+          required: true
+          schema:
+            type: integer
+            example: 222836
+      responses:
+        "200":
+          description: Gang data retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  gang:
+                    type: object
+                    properties:
+                      gang_id:
+                        type: string
+                      gang_name:
+                        type: string
+                      gang_type:
+                        type: string
+                      gang_rating:
+                        type: string
+                      campaign:
+                        type: string
+                      url:
+                        type: string
+                      credits:
+                        type: string
+                      meat:
+                        type: string
+                      reputation:
+                        type: string
+                      wealth:
+                        type: string
+                      alignment:
+                        type: string
+                      allegiance:
+                        type: string
+                      territories:
+                        type: array
+                        items:
+                          type: string
+                      campaign_territories:
+                        type: array
+                        items:
+                          type: string
+                      campaign_rackets:
+                        type: array
+                        items:
+                          type: object
+                      stash:
+                        type: array
+                        items:
+                          type: object
+                      gang_stash:
+                        type: array
+                        items:
+                          type: string
+                      gang_image:
+                        type: "null"
+                      gang_notes:
+                        type: string
+                      gangers:
+                        type: array
+                        items:
+                          type: object
+                          properties:
+                            ganger_id:
+                              type: string
+                            label_id:
+                              type: string
+                            name:
+                              type: string
+                            type:
+                              type: string
+                            m:
+                              type: string
+                            ws:
+                              type: string
+                            bs:
+                              type: string
+                            s:
+                              type: string
+                            t:
+                              type: string
+                            w:
+                              type: string
+                            i:
+                              type: string
+                            a:
+                              type: string
+                            ld:
+                              type: string
+                            cl:
+                              type: string
+                            wil:
+                              type: string
+                            int:
+                              type: string
+                            cost:
+                              type: string
+                            xp:
+                              type: string
+                            kills:
+                              type: string
+                            advance_count:
+                              type: string
+                            equipment:
+                              type: array
+                              items:
+                                type: object
+                                properties:
+                                  name:
+                                    type: string
+                                  qty:
+                                    type: string
+                            skills:
+                              type: array
+                              items:
+                                type: string
+                            injuries:
+                              type: array
+                              items:
+                                type: string
+                            image:
+                              type: "null"
+                            status:
+                              type: string
+                            notes:
+                              type: string
+                            datetime_added:
+                              type: string
+                              format: date-time
+                            datetime_updated:
+                              type: string
+                              format: date-time
+        "404":
+          description: Gang not found
+  /json/campaign/{campaign_id}.json:
+    get:
+      operationId: getCampaignData
+      summary: Get campaign data
+      description: Retrieve the JSON formatted data of a campaign by providing the campaign ID.
+      parameters:
+        - name: campaign_id
+          in: path
+          description: The unique identifier for the campaign.
+          required: true
+          schema:
+            type: integer
+            example: 20159
+      responses:
+        "200":
+          description: Campaign data retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  campaign:
+                    type: object
+                    properties:
+                      campaign_id:
+                        type: string
+                      campaign_name:
+                        type: string
+        "404":
+          description: Campaign not found

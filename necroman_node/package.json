@@ -3,8 +3,8 @@
     "@react-native-firebase/app": "latest",
     "airtable": "latest",
     "airtable2lowdb": "^1.0.0",
-    "dotenv": "latest",
+    "dotenv": "^16.0.3",
     "lowdb": "^1.0.0",
-    "n8n": "^0.202.0"
+    "n8n": "^0.95.1"
   }
 }

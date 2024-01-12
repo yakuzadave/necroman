@@ -1,0 +1,8 @@
+fastapi
+requests
+tenacity
+termcolor
+openai
+d20
+gradio
+langchain

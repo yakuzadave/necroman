@@ -1,6 +1,10 @@
 const exportToLowdb = require('airtable2lowdb')
 const fs = require('fs')
 
+// import AT_KEY from .env
+const AT_KEY = process.env.AT_KEY
+const NECRO_BASE = process.env.NECRO_BASE
+
 //require lowdb and set up db.json as the database
 const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')

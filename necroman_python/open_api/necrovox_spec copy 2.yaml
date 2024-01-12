@@ -1,0 +1,683 @@
+openapi: 3.0.0
+info:
+  title: Necro-vox API
+  description: API for accessing detailed information about various gangs, including House Delaque, from Necro-vox.
+  version: 1.0.0
+servers:
+  - url: https://necrovox.org/docs
+    description: Main API server for Necro-vox documentation
+paths:
+  /gangs/gang-lists/house-cawdor:
+    get:
+      operationId: getHouseCawdorDetails
+      summary: Retrieve detailed HTML page about House Cawdor
+      responses:
+        '200':
+          description: HTML content about House Cawdor
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-cawdor/equipment-list:
+    get:
+      operationId: getHouseCawdorEquipmentList
+      summary: Retrieve detailed HTML page about House Cawdor equipment list
+      responses:
+        '200':
+          description: HTML content about House Cawdor equipment list
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-cawdor/articles-of-faith:
+    get:
+      operationId: getHouseCawdorArticlesOfFaith
+      summary: Retrieve detailed HTML page about House Cawdor articles of faith
+      responses:
+        '200':
+          description: HTML content about House Cawdor articles of faith
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-cawdor/cawdor-terrain:
+    get:
+      operationId: getHouseCawdorTerrain
+      summary: Retrieve detailed HTML page about House Cawdor terrain
+      responses:
+        '200':
+          description: HTML content about House Cawdor terrain
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-delaque/:
+    get:
+      operationId: getHouseDelaqueDetails
+      summary: Retrieve detailed HTML page about House Delaque
+      responses:
+        '200':
+          description: HTML content about House Delaque
+          content:
+            text/html:
+              schema:
+                type: string
+  
+  /gangs/gang-lists/house-delaque/equipment-list:
+    get:
+      operationId: getHouseDelaqueEquipmentList
+      summary: Retrieve detailed HTML page about House Delaque equipment list
+      responses:
+        '200':
+          description: HTML content about House Delaque equipment list
+          content:
+            text/html:
+              schema:
+                type: string
+                
+  /gangs/gang-lists/house-delaque/delaque-terrain:
+    get:
+      operationId: getHouseDelaqueTerrain
+      summary: Retrieve detailed HTML page about House Delaque terrain
+      responses:
+        '200':
+          description: HTML content about House Delaque terrain
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-delaque/psychoteric-wyrd-powers:
+    get:
+      operationId: getHouseDelaquePsychotericWyrdPowers
+      summary: Retrieve detailed HTML page about House Delaque psychoteric wyrd powers
+      responses:
+        '200':
+          description: HTML content about House Delaque psychoteric wyrd powers
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-escher:
+    get:
+      operationId: getHouseEscherDetails
+      summary: Retrieve detailed HTML page about House Escher
+      responses:
+        '200':
+          description: HTML content about House Escher
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-escher/chem-alchemy:
+    get:
+      operationId: getHouseEscherChemAlchemy
+      summary: Retrieve detailed HTML page about House Escher chem alchemy
+      responses:
+        '200':
+          description: HTML content about House Escher chem alchemy
+          content:
+            text/html:
+              schema:
+                type: string
+  
+  /gangs/gang-lists/house-escher/equipment-list:
+    get:
+      operationId: getHouseEscherEquipmentList
+      summary: Retrieve detailed HTML page about House Escher equipment list
+      responses:
+        '200':
+          description: HTML content about House Escher equipment list
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-escher/escher-terrain:
+    get:
+      operationId: getHouseEscherTerrain
+      summary: Retrieve detailed HTML page about House Escher terrain
+      responses:
+        '200':
+          description: HTML content about House Escher terrain
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-goliath:
+    get:
+      operationId: getHouseGoliathDetails
+      summary: Retrieve detailed HTML page about House Goliath
+      responses:
+        '200':
+          description: HTML content about House Goliath
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-goliath/equipment-list:
+    get:
+      operationId: getHouseGoliathEquipmentList
+      summary: Retrieve detailed HTML page about House Goliath equipment list
+      responses:
+        '200':
+          description: HTML content about House Goliath equipment list
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-goliath/goliath-terrain:
+    get:
+      operationId: getHouseGoliathTerrain
+      summary: Retrieve detailed HTML page about House Goliath terrain
+      responses:
+        '200':
+          description: HTML content about House Goliath terrain
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-goliath/gene-smithing:
+    get:
+      operationId: getHouseGoliathGeneSmithing
+      summary: Retrieve detailed HTML page about House Goliath gene smithing
+      responses:
+        '200':
+          description: HTML content about House Goliath gene smithing
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-orlock:
+    get:
+      operationId: getHouseOrlockDetails
+      summary: Retrieve detailed HTML page about House Orlock
+      responses:
+        '200':
+          description: HTML content about House Orlock
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-orlock/equipment-list:
+    get:
+      operationId: getHouseOrlockEquipmentList
+      summary: Retrieve detailed HTML page about House Orlock equipment list
+      responses:
+        '200':
+          description: HTML content about House Orlock equipment list
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-orlock/orlock-terrain:
+    get:
+      operationId: getHouseOrlockTerrain
+      summary: Retrieve detailed HTML page about House Orlock terrain
+      responses:
+        '200':
+          description: HTML content about House Orlock terrain
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-orlock/legendary-names:
+    get:
+      operationId: getHouseOrlockLegendaryNames
+      summary: Retrieve detailed HTML page about House Orlock legendary names
+      responses:
+        '200':
+          description: HTML content about House Orlock legendary names
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-van-saar:
+    get:
+      operationId: getHouseVanSaarDetails
+      summary: Retrieve detailed HTML page about House Van Saar
+      responses:
+        '200':
+          description: HTML content about House Van Saar
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-van-saar/equipment-list:
+    get:
+      operationId: getHouseVanSaarEquipmentList
+      summary: Retrieve detailed HTML page about House Van Saar equipment list
+      responses:
+        '200':
+          description: HTML content about House Van Saar equipment list
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-van-saar/van-saar-terrain:
+    get:
+      operationId: getHouseVanSaarTerrain
+      summary: Retrieve detailed HTML page about House Van Saar terrain
+      responses:
+        '200':
+          description: HTML content about House Van Saar terrain
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-van-saar/archaeo-cyberteknika:
+    get:
+      operationId: getHouseVanSaarArchaeoCyberteknika
+      summary: Retrieve detailed HTML page about House Van Saar archaeo cyberteknika
+      responses:
+        '200':
+          description: HTML content about House Van Saar archaeo cyberteknika
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/venators:
+    get:
+      operationId: getVenatorsDetails
+      summary: Retrieve detailed HTML page about Venators
+      responses:
+        '200':
+          description: HTML content about Venators
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/palanite-enforcers:
+    get:
+      operationId: getPalaniteEnforcersDetails
+      summary: Retrieve detailed HTML page about Palanite Enforcers
+      responses:
+        '200':
+          description: HTML content about Palanite Enforcers
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/palanite-enforcers/eqipment-list:
+    get:
+      operationId: getPalaniteEnforcersEquipmentList
+      summary: Retrieve detailed HTML page about Palanite Enforcers equipment list
+      responses:
+        '200':
+          description: HTML content about Palanite Enforcers equipment list
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/badzone-enforcers:
+    get:
+      operationId: getBadzoneEnforcersDetails
+      summary: Retrieve detailed HTML page about Badzone Enforcers
+      responses:
+        '200':
+          description: HTML content about Badzone Enforcers
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/badzone-enforcers/eqipment-list:
+    get:
+      operationId: getBadzoneEnforcersEquipmentList
+      summary: Retrieve detailed HTML page about Badzone Enforcers equipment list
+      responses:
+        '200':
+          description: HTML content about Badzone Enforcers equipment list
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/genestealer-cult:
+    get:
+      operationId: getGenestealerCultDetails
+      summary: Retrieve detailed HTML page about Genestealer Cult
+      responses:
+        '200':
+          description: HTML content about Genestealer Cult
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/genestealer-cult/equipment-list:
+    get:
+      operationId: getGenestealerCultEquipmentList
+      summary: Retrieve detailed HTML page about Genestealer Cult equipment list
+      responses:
+        '200':
+          description: HTML content about Genestealer Cult equipment list
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/helot-chaos-cult:
+    get:
+      operationId: getHelotChaosCultDetails
+      summary: Retrieve detailed HTML page about Helot Chaos Cult
+      responses:
+        '200':
+          description: HTML content about Helot Chaos Cult
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/helot-chaos-cult/equipment-list:
+    get:
+      operationId: getHelotChaosCultEquipmentList
+      summary: Retrieve detailed HTML page about Helot Chaos Cult equipment list
+      responses:
+        '200':
+          description: HTML content about Helot Chaos Cult equipment list
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/corpse-grinder-cult:
+    get:
+      operationId: getCorpseGrinderCultDetails
+      summary: Retrieve detailed HTML page about Corpse Grinder Cult
+      responses:
+        '200':
+          description: HTML content about Corpse Grinder Cult
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/corpse-grinder-cult/equipment-list:
+    get:
+      operationId: getCorpseGrinderCultEquipmentList
+      summary: Retrieve detailed HTML page about Corpse Grinder Cult equipment list
+      responses:
+        '200':
+          description: HTML content about Corpse Grinder Cult equipment list
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/slave-ogryns:
+    get:
+      operationId: getSlaveOgrynsDetails
+      summary: Retrieve detailed HTML page about Slave Ogryns
+      responses:
+        '200':
+          description: HTML content about Slave Ogryns
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/slave-ogryns/equipment-list:
+    get:
+      operationId: getSlaveOgrynsEquipmentList
+      summary: Retrieve detailed HTML page about Slave Ogryns equipment list
+      responses:
+        '200':
+          description: HTML content about Slave Ogryns equipment list
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/outcasts:
+    get:
+      operationId: getOutcastsDetails
+      summary: Retrieve detailed HTML page about Outcasts
+      responses:
+        '200':
+          description: HTML content about Outcasts
+          content:
+            text/html:
+              schema:
+                type: string
+  /gang-lists/outcasts/equipment-list:
+    get:
+      operationId: getOutcastsEquipmentList
+      summary: Retrieve detailed HTML page about Outcasts equipment list
+      responses:
+        '200':
+          description: HTML content about Outcasts equipment list
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/outcasts/delegation-gangs:
+    get:
+      operationId: getOutcastsDelegationGangs
+      summary: Retrieve detailed HTML page about Outcasts delegation gangs
+      responses:
+        '200':
+          description: HTML content about Outcasts delegation gangs
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/outcasts/outcast-mutations:
+    get:
+      operationId: getOutcastsOutcastMutations
+      summary: Retrieve detailed HTML page about Outcasts outcast mutations
+      responses:
+        '200':
+          description: HTML content about Outcasts outcast mutations
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/ash-wastes-nomads:
+    get:
+      operationId: getAshWastesNomadsDetails
+      summary: Retrieve detailed HTML page about Ash Wastes Nomads
+      responses:
+        '200':
+          description: HTML content about Ash Wastes Nomads
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/ash-wastes-nomads/equipment-list:
+    get:
+      operationId: getAshWastesNomadsEquipmentList
+      summary: Retrieve detailed HTML page about Ash Wastes Nomads equipment list
+      responses:
+        '200':
+          description: HTML content about Ash Wastes Nomads equipment list
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/squats:
+    get:
+      operationId: getSquatsDetails
+      summary: Retrieve detailed HTML page about Squats
+      responses:
+        '200':
+          description: HTML content about Squats
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/squats/equipment-list:
+    get:
+      operationId: getSquatsEquipmentList
+      summary: Retrieve detailed HTML page about Squats equipment list
+      responses:
+        '200':
+          description: HTML content about Squats equipment list
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions:
+    get:
+      operationId: getGangAdditions
+      summary: Retrieve detailed HTML page about gang additions
+      responses:
+        '200':
+          description: HTML content about gang additions
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/exotic-beasts:
+    get:
+      operationId: getGangAdditionsExoticBeasts
+      summary: Retrieve detailed HTML page about gang additions exotic beasts
+      responses:
+        '200':
+          description: HTML content about gang additions exotic beasts
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/hangers-on-and-brutes:
+    get:
+      operationId: getGangAdditionsHangersOnAndBrutes
+      summary: Retrieve detailed HTML page about gang additions hangers on and brutes
+      responses:
+        '200':
+          description: HTML content about gang additions hangers on and brutes
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/hangers-on-and-brutes/hangers-on:
+    get:
+      operationId: getGangAdditionsHangersOnAndBrutesHangersOn
+      summary: Retrieve detailed HTML page about gang additions hangers on and brutes hangers on
+      responses:
+        '200':
+          description: HTML content about gang additions hangers on and brutes hangers on
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/hangers-on-and-brutes/brutes:
+    get:
+      operationId: getGangAdditionsHangersOnAndBrutesBrutes
+      summary: Retrieve detailed HTML page about gang additions hangers on and brutes brutes
+      responses:
+        '200':
+          description: HTML content about gang additions hangers on and brutes brutes
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/vehicles:
+    get:
+      operationId: getGangAdditionsVehicles
+      summary: Retrieve detailed HTML page about gang additions vehicles
+      responses:
+        '200':
+          description: HTML content about gang additions vehicles
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/vehicles/wasteland-workshop:
+    get:
+      operationId: getGangAdditionsVehiclesWastelandWorkshop
+      summary: Retrieve detailed HTML page about gang additions vehicles wasteland workshop
+      responses:
+        '200':
+          description: HTML content about gang additions vehicles wasteland workshop
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/vehicles/cargo-8-ridgehauler:
+    get:
+      operationId: getGangAdditionsVehiclesCargo8Ridgehauler
+      summary: Retrieve detailed HTML page about gang additions vehicles cargo 8 ridgehauler
+      responses:
+        '200':
+          description: HTML content about gang additions vehicles cargo 8 ridgehauler
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/vehicles/chronos-pattern-ironcrawler:
+    get:
+      operationId: getGangAdditionsVehiclesChronosPatternIroncrawler
+      summary: Retrieve detailed HTML page about gang additions vehicles chronos pattern ironcrawler
+      responses:
+        '200':
+          description: HTML content about gang additions vehicles chronos pattern ironcrawler
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/vehicles/ridgerunner:
+    get:
+      operationId: getGangAdditionsVehiclesRidgerunner
+      summary: Retrieve detailed HTML page about gang additions vehicles ridgerunner
+      responses:
+        '200':
+          description: HTML content about gang additions vehicles ridgerunner
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/vehicles/rockgrinder:
+    get:
+      operationId: getGangAdditionsVehiclesRockgrinder
+      summary: Retrieve detailed HTML page about gang additions vehicles rockgrinder
+      responses:
+        '200':
+          description: HTML content about gang additions vehicles rockgrinder
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/vehicles/scrap-skiff:
+    get:
+      operationId: getGangAdditionsVehiclesScrapSkiff
+      summary: Retrieve detailed HTML page about gang additions vehicles scrap skiff
+      responses:
+        '200':
+          description: HTML content about gang additions vehicles scrap skiff
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/vehicles/sludge-barge:
+    get:
+      operationId: getGangAdditionsVehiclesSludgeBarge
+      summary: Retrieve detailed HTML page about gang additions vehicles sludge barge
+      responses:
+        '200':
+          description: HTML content about gang additions vehicles sludge barge
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/vehicles/wolfquad:
+    get:
+      operationId: getGangAdditionsVehiclesWolfquad
+      summary: Retrieve detailed HTML page about gang additions vehicles wolfquad
+      responses:
+        '200':
+          description: HTML content about gang additions vehicles wolfquad
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/hired-guns:
+    get:
+      operationId: getGangAdditionsHiredGuns
+      summary: Retrieve detailed HTML page about gang additions hired guns
+      responses:
+        '200':
+          description: HTML content about gang additions hired guns
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/hired-guns/bounty-hunters:
+    get:
+      operationId: getGangAdditionsHiredGunsBountyHunters
+      summary: Retrieve detailed HTML page about gang additions hired guns bounty hunters
+      responses:
+        '200':
+          description: HTML content about gang additions hired guns bounty hunters
+          content:
+            text/html:
+              schema:
+                type: string

@@ -1,0 +1,309 @@
+openapi: 3.0.0
+info:
+  title: Necro-vox Core API
+  description: API for accessing detailed information about various gangs, including House Delaque, from Necro-vox.
+  version: 1.0.0
+servers:
+  - url: https://necrovox.org/docs
+    description: Main API server for Necro-vox documentation
+paths:
+  /gangs/gang-lists/house-cawdor:
+    get:
+      operationId: getHouseCawdorDetails
+      summary: Retrieve detailed HTML page about House Cawdor
+      responses:
+        '200':
+          description: HTML content about House Cawdor
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-cawdor/equipment-list:
+    get:
+      operationId: getHouseCawdorEquipmentList
+      summary: Retrieve detailed HTML page about House Cawdor equipment list
+      responses:
+        '200':
+          description: HTML content about House Cawdor equipment list
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-cawdor/articles-of-faith:
+    get:
+      operationId: getHouseCawdorArticlesOfFaith
+      summary: Retrieve detailed HTML page about House Cawdor articles of faith
+      responses:
+        '200':
+          description: HTML content about House Cawdor articles of faith
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-cawdor/cawdor-terrain:
+    get:
+      operationId: getHouseCawdorTerrain
+      summary: Retrieve detailed HTML page about House Cawdor terrain
+      responses:
+        '200':
+          description: HTML content about House Cawdor terrain
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-delaque/:
+    get:
+      operationId: getHouseDelaqueDetails
+      summary: Retrieve detailed HTML page about House Delaque
+      responses:
+        '200':
+          description: HTML content about House Delaque
+          content:
+            text/html:
+              schema:
+                type: string
+  
+  /gangs/gang-lists/house-delaque/equipment-list:
+    get:
+      operationId: getHouseDelaqueEquipmentList
+      summary: Retrieve detailed HTML page about House Delaque equipment list
+      responses:
+        '200':
+          description: HTML content about House Delaque equipment list
+          content:
+            text/html:
+              schema:
+                type: string
+                
+  /gangs/gang-lists/house-delaque/delaque-terrain:
+    get:
+      operationId: getHouseDelaqueTerrain
+      summary: Retrieve detailed HTML page about House Delaque terrain
+      responses:
+        '200':
+          description: HTML content about House Delaque terrain
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-delaque/psychoteric-wyrd-powers:
+    get:
+      operationId: getHouseDelaquePsychotericWyrdPowers
+      summary: Retrieve detailed HTML page about House Delaque psychoteric wyrd powers
+      responses:
+        '200':
+          description: HTML content about House Delaque psychoteric wyrd powers
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-escher:
+    get:
+      operationId: getHouseEscherDetails
+      summary: Retrieve detailed HTML page about House Escher
+      responses:
+        '200':
+          description: HTML content about House Escher
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-escher/chem-alchemy:
+    get:
+      operationId: getHouseEscherChemAlchemy
+      summary: Retrieve detailed HTML page about House Escher chem alchemy
+      responses:
+        '200':
+          description: HTML content about House Escher chem alchemy
+          content:
+            text/html:
+              schema:
+                type: string
+  
+  /gangs/gang-lists/house-escher/equipment-list:
+    get:
+      operationId: getHouseEscherEquipmentList
+      summary: Retrieve detailed HTML page about House Escher equipment list
+      responses:
+        '200':
+          description: HTML content about House Escher equipment list
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-escher/escher-terrain:
+    get:
+      operationId: getHouseEscherTerrain
+      summary: Retrieve detailed HTML page about House Escher terrain
+      responses:
+        '200':
+          description: HTML content about House Escher terrain
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-goliath:
+    get:
+      operationId: getHouseGoliathDetails
+      summary: Retrieve detailed HTML page about House Goliath
+      responses:
+        '200':
+          description: HTML content about House Goliath
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-goliath/equipment-list:
+    get:
+      operationId: getHouseGoliathEquipmentList
+      summary: Retrieve detailed HTML page about House Goliath equipment list
+      responses:
+        '200':
+          description: HTML content about House Goliath equipment list
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-goliath/goliath-terrain:
+    get:
+      operationId: getHouseGoliathTerrain
+      summary: Retrieve detailed HTML page about House Goliath terrain
+      responses:
+        '200':
+          description: HTML content about House Goliath terrain
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-goliath/gene-smithing:
+    get:
+      operationId: getHouseGoliathGeneSmithing
+      summary: Retrieve detailed HTML page about House Goliath gene smithing
+      responses:
+        '200':
+          description: HTML content about House Goliath gene smithing
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-orlock:
+    get:
+      operationId: getHouseOrlockDetails
+      summary: Retrieve detailed HTML page about House Orlock
+      responses:
+        '200':
+          description: HTML content about House Orlock
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-orlock/equipment-list:
+    get:
+      operationId: getHouseOrlockEquipmentList
+      summary: Retrieve detailed HTML page about House Orlock equipment list
+      responses:
+        '200':
+          description: HTML content about House Orlock equipment list
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-orlock/orlock-terrain:
+    get:
+      operationId: getHouseOrlockTerrain
+      summary: Retrieve detailed HTML page about House Orlock terrain
+      responses:
+        '200':
+          description: HTML content about House Orlock terrain
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-orlock/legendary-names:
+    get:
+      operationId: getHouseOrlockLegendaryNames
+      summary: Retrieve detailed HTML page about House Orlock legendary names
+      responses:
+        '200':
+          description: HTML content about House Orlock legendary names
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-van-saar:
+    get:
+      operationId: getHouseVanSaarDetails
+      summary: Retrieve detailed HTML page about House Van Saar
+      responses:
+        '200':
+          description: HTML content about House Van Saar
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-van-saar/equipment-list:
+    get:
+      operationId: getHouseVanSaarEquipmentList
+      summary: Retrieve detailed HTML page about House Van Saar equipment list
+      responses:
+        '200':
+          description: HTML content about House Van Saar equipment list
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-van-saar/van-saar-terrain:
+    get:
+      operationId: getHouseVanSaarTerrain
+      summary: Retrieve detailed HTML page about House Van Saar terrain
+      responses:
+        '200':
+          description: HTML content about House Van Saar terrain
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/house-van-saar/archaeo-cyberteknika:
+    get:
+      operationId: getHouseVanSaarArchaeoCyberteknika
+      summary: Retrieve detailed HTML page about House Van Saar archaeo cyberteknika
+      responses:
+        '200':
+          description: HTML content about House Van Saar archaeo cyberteknika
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/venators:
+    get:
+      operationId: getVenatorsDetails
+      summary: Retrieve detailed HTML page about Venators
+      responses:
+        '200':
+          description: HTML content about Venators
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/palanite-enforcers:
+    get:
+      operationId: getPalaniteEnforcersDetails
+      summary: Retrieve detailed HTML page about Palanite Enforcers
+      responses:
+        '200':
+          description: HTML content about Palanite Enforcers
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/palanite-enforcers/eqipment-list:
+    get:
+      operationId: getPalaniteEnforcersEquipmentList
+      summary: Retrieve detailed HTML page about Palanite Enforcers equipment list
+      responses:
+        '200':
+          description: HTML content about Palanite Enforcers equipment list
+          content:
+            text/html:
+              schema:
+                type: string
