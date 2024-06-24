@@ -12,7 +12,7 @@ tenacity = "^8.2.3"
 termcolor = "^2.4.0"
 openai = "^1.6.1"
 d20 = "^1.1.2"
-gradio = "^4.14.0"
+gradio = "^4.36.1"
 langchain = "^0.1.0"
 
 [tool.pyright]
